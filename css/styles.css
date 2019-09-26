@@ -1,0 +1,141 @@
+body {
+    width: 100;
+    background-color: dimgrey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-outer {
+    width: 1300px;
+    height: 566px;
+
+    margin: 0 auto;
+
+    background-image: url("../img/bg/Layer\ 20.svg")
+}
+
+.container-inner {
+    width: 1022px;
+
+    margin: 0 auto;
+}
+
+/* header */
+.container-header {
+    height: 167px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* height: ; */
+}
+
+.logotype {
+    margin-top: 29px;
+    margin-left: 1px;
+}
+
+/* name-page */
+
+.name-page {
+    position: relative;
+    right: 145px;
+
+    margin-top: 52px;
+    font-size: 41px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* navigation */
+
+.main-nav {
+    display: flex;
+    margin-top: 72px;
+    width: 454px;
+    height: 41px;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 12px;
+
+    background-image: url("../img/nav/Rectangle.svg")
+}
+
+/* nav-bar */
+
+li {
+    list-style-type: none;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-family: "Segoe WP";
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9b7d08;
+}
+
+/* icons */
+
+.icon {
+    height: 20px;
+    margin-bottom: 11px;
+}
+
+
+
+
+/* main-section */
+
+.main-section {
+    display: flex;
+    
+    width: 1000px;
+    margin: 0 auto;
+    outline: 1px solid black;
+}
+
+/* video */
+
+.movie {
+    width: 578px;
+    height: 327px;
+    /* outline: 1px solid black; */
+
+    margin: 0 51px 0 0;
+
+    background-image: url(../img/img/Layer\ 17.svg);
+}
+
+/* heading main-section */
+
+h2 {
+    width: 410px;
+    height: 121px;
+
+    margin: 77px 12px 0 0;
+
+    font-size: 63px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #f5c506;
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    /* outline: 1px solid black; */
+}
+
+.change-color {
+    color: #fff;
+}
