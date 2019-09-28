@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "Asap";
-    src: url("../fonts/Asap/Asap-Regular.ttf") format("truetype");
+    src: url("../fonts/Asap/Asap-Regular.otf") format("opentype");
 }
 
 @font-face {

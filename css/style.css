@@ -111,20 +111,24 @@ html, body {
 
 /* banner */
 
+.banner {
+    height: 398px;
+}
+
 .border-banner {
     width: 1000px;
-    height: 396px;
     
     margin: 0 auto;
 }
 
 .movie {
-    display: inline-block;
+    position: relative;
+    z-index: 1;
 
     width: 549px;
     height: 327px;
 
-    background-image: url("../img/img/movie.svg");
+    background-image: url("../img/movie/movie.png");
     background-position-x: -150px;
 }
 
@@ -160,6 +164,13 @@ html, body {
     color: #fff;
 }
 
+/* arrow */
+
+.arrow {
+    position: relative;
+    bottom: 100px;
+}
+
 /* menu */
 
 .main-menu {
@@ -169,7 +180,7 @@ html, body {
 
     background-image: url(../img/bg/bg-menu.svg);
 
-    outline: 1px solid black;
+    box-shadow: 0 -1px 10px rgba(0,0,0,0.5);
 }
 
 .menu {
@@ -184,6 +195,8 @@ html, body {
     grid-template-columns: repeat(3, 340px);
 }
 
+/* menu link */
+
 .menu-link {
     height: 100%;
 
@@ -191,11 +204,49 @@ html, body {
     letter-spacing: 0px;
     color: #000000;
     font-family: "Segoe UI";
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
     text-transform: uppercase;
 
-    /* border: 1px solid black; */
-
     list-style-type: none; 
+}
+
+.menu-link-1 {
+    padding: 33px 4px 0 0;
+}
+
+.menu-link-1 figcaption {
+    letter-spacing: 0.375px;
+    font-weight: 100;
+}
+
+.menu-link-1 span {
+    display: inline-block;
+
+    padding: 2px 0 0 26px;
+}
+
+.menu-link-2 {
+    padding: 9px 0 0 22px;
+}
+
+.menu-link-2 span {
+    display: inline-block;
+
+    padding: 6px 0 0 0;
+}
+
+.menu-link-3 {
+    padding: 26px 24px 0 0;
+}
+
+.menu-link-3 span {
+    display: inline-block;
+
+    padding: 1px 0 0 6px;
+}
+
+.menu-link-3 figcaption {
+    letter-spacing: 0.2px;
+    font-weight: 100;
 }
