@@ -109,11 +109,59 @@ html, body {
     text-align: center;
 }
 
-/* banner */
+/* arrow */
 
-.banner {
+.border-arrow-banner {
+    width: 1300px;
     height: 398px;
+
+    padding: 0;
+    margin: 0 auto;
 }
+
+.arrow {
+    display: grid;
+
+    grid-template-columns: 150px 1000px 150px;
+
+    justify-content: space-between;
+}
+
+.grid-item-1, 
+.grid-item-3 {
+    display: block;
+    margin: 132px 0;
+}
+
+/* position arrow */
+
+.grid-item-3 {
+    position: relative;
+    justify-self: end;
+
+    right: 32px;
+}
+
+.arrows-1 {
+    position: relative;
+
+    right: 28px;
+    bottom: 18px;
+}
+
+.arrows-2 {
+    position: absolute;
+    top: 20px;
+    left: 11px;
+
+    z-index: 2;
+}
+
+.fill {
+    position: absolute;
+}
+
+/* banner */
 
 .border-banner {
     width: 1000px;
@@ -122,9 +170,6 @@ html, body {
 }
 
 .movie {
-    position: relative;
-    z-index: 1;
-
     width: 549px;
     height: 327px;
 
@@ -162,13 +207,6 @@ html, body {
     letter-spacing: 0.5px;
 
     color: #fff;
-}
-
-/* arrow */
-
-.arrow {
-    position: relative;
-    bottom: 100px;
 }
 
 /* menu */
